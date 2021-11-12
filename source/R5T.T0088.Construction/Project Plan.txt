@@ -1,0 +1,3 @@
+R5T.T0088.Construction - Construction project for IConsole and IConsoleOperator extension method bases..
+
+GOALS:
