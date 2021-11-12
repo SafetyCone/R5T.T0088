@@ -1,0 +1,2 @@
+# R5T.T0088
+IConsole and IConsoleOperator extension method bases.
