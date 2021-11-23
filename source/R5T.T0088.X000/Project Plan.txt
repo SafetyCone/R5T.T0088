@@ -1,0 +1,4 @@
+R5T.T0088.X000 - Uncategorized extensions to IConsole, including:
+
+* Providing an operating system-specific instantiation of R5T.T0087.IConsole.
+

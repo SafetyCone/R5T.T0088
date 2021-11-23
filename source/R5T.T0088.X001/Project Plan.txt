@@ -1,0 +1,3 @@
+R5T.T0088.X001 - Basic extensions to IConsole.
+
+GOALS:

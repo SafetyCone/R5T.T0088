@@ -1,0 +1,3 @@
+R5T.T0088.X003 - Thread-safety related extensions for IConsole.
+
+GOALS:
