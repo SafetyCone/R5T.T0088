@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.6.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0088.Construction", "R5T.T0088.Construction\R5T.T0088.Construction.csproj", "{B5536FAF-C3C5-4DAC-8887-6730D6A128E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0088", "R5T.T0088\R5T.T0088.csproj", "{F1AFD1D6-BA77-4F37-BE88-7973016F6B6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{BE6CD9EC-ADFE-421D-A0C8-606FE7828CFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0039.T002", "..\..\R5T.T0039\source\R5T.T0039.T002\R5T.T0039.T002.csproj", "{C265D1A9-1238-4E05-B231-AFB179512530}"
+EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{C265D1A9-1238-4E05-B231-AFB179512530} = {BE6CD9EC-ADFE-421D-A0C8-606FE7828CFD}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -15,9 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B5536FAF-C3C5-4DAC-8887-6730D6A128E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{F1AFD1D6-BA77-4F37-BE88-7973016F6B6D}.Release|x64.Build.0 = Release|Any CPU
 		{F1AFD1D6-BA77-4F37-BE88-7973016F6B6D}.Release|x86.ActiveCfg = Release|Any CPU
 		{F1AFD1D6-BA77-4F37-BE88-7973016F6B6D}.Release|x86.Build.0 = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|x64.Build.0 = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Debug|x86.Build.0 = Debug|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|x64.ActiveCfg = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|x64.Build.0 = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|x86.ActiveCfg = Release|Any CPU
+		{C265D1A9-1238-4E05-B231-AFB179512530}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

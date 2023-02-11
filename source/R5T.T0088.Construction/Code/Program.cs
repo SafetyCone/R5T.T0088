@@ -7,7 +7,7 @@ namespace R5T.T0088.Construction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Hello World!");
         }
     }
 }
